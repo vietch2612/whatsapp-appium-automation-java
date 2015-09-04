@@ -16,12 +16,15 @@ import java.net.URL;
  */
 public class Register {
 
+    //Init appium android driver, if iOS you can call IosDriver
     AndroidDriver driver = null;
-    static String URL = "http://127.0.0.1:4723/wd/hub";
-//    SetupTest setupTest = new SetupTest();
 
-//    File classpathRoot = new File(System.getProperty("user.dir"));
-//    File appDir = new File("src/resources");
+    //Url of appium server.
+    //How to find? here
+    //Http://3.bp.blogspot.com/-vlxM0YgXspw/UvYS6kOZDdI/AAAAAAAAAiU/3JXuNp8AOPc/s1600/Appium.jpg
+    static String URL = "http://127.0.0.1:4723/wd/hub";
+
+    //Get apk app location
     File app = new File("src/resources/com.whatsapp.app.apk");
 
     @BeforeTest
@@ -31,15 +34,16 @@ public class Register {
         caps.setCapability("platform","ANDROID");
         caps.setCapability("platformVersion", "5.0");
         caps.setCapability("app",app);
-
         driver = new AndroidDriver(new URL(URL),caps);
     }
 
+    //Quit driver after test
     @AfterTest
     private void afterTest () {
         driver.quit();
     }
 
+    //Run your test case
     @Test
     public void testRegister() {
         System.out.println("Completed");
