@@ -1,7 +1,7 @@
 ## Example Automation Test for Whatsapp app (Android) with Appium
 
 
-###Authour 
+###Author 
 * Name: Cao Hoài Vi?t
 
 * Skype: viet.ch2612
