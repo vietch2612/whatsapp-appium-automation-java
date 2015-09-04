@@ -1,6 +1,20 @@
-# Example Automation Test for Whatsapp app (Android) with Appium
+## Example Automation Test for Whatsapp app (Android) with Appium
 
 
-![Alt text](http://gianty.com.vn/images/logo.png "Optional title")
+###Authour 
+* Name: Cao Hoài Vi?t
 
-Website: [http://gianty.com.vn](http://gianty.com.vn/)
+* Skype: viet.ch2612
+
+* Linkedin: [https://vn.linkedin.com/in/vietch2612](https://vn.linkedin.com/in/vietch2612/)
+
+* Facebook: [https://www.facebook.com/vietch2612](https://www.facebook.com/vietch2612)
+
+* Mobile phone: (+84) 93 8 922 612
+
+
+###Technologies
+
+* Java 
+* Appium [https://appium.io](https://appium.io/)
+* TestNG 
