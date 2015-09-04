@@ -17,7 +17,7 @@ import java.net.URL;
 public class Register {
 
     //Init appium android driver, if iOS you can call IosDriver
-    AndroidDriver driver = null;
+    AndroidDriver driver;
 
     //Url of appium server.
     //How to find? here
