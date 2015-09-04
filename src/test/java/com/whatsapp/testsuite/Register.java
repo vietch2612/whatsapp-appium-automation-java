@@ -10,7 +10,6 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.File;
-import java.io.UncheckedIOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
@@ -69,7 +68,7 @@ public class Register {
     }
 
     @Test(dependsOnMethods = {"clickOnAgree"}, dataProvider = "countryNameList")
-    public void selectCountry(String countryCode, String countryNameEnglish) throws UncheckedIOException{
+    public void selectCountry(String countryCode, String countryNameEnglish) {
         //Select country
         clickOn(BTN_SELECT_COUNTRY);
 
