@@ -2,7 +2,7 @@
 
 
 ###Author 
-* Name: Cao Hoài Vi?t
+* Name: Cao Hoai Viet
 
 * Skype: viet.ch2612
 
