@@ -16,5 +16,5 @@
 ###Technologies
 
 * Java 
-* Appium [https://appium.io](https://appium.io/)
+* Appium [http://appium.io](http://appium.io/)
 * TestNG 
